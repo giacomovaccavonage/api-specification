@@ -206,7 +206,7 @@ components:
       type: object
       properties:
         message-count:
-          type: integer
+          type: string
           description: The amount of messages in the request
           example: 1
         messages:
@@ -228,7 +228,7 @@ components:
       type: object
       properties:
         message-count:
-          type: integer
+          type: string
           description: The amount of messages in the request
           example: 1
         messages:
